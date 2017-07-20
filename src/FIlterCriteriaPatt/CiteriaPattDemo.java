@@ -28,6 +28,18 @@ public class CiteriaPattDemo {
         System.out.println("Males: ");
         printPeople(male.meetCriteria(people));
 
+        System.out.println("Females: ");
+        printPeople(female.meetCriteria(people));
+
+        System.out.println("Married people: ");
+        printPeople((married.meetCriteria(people)));
+
+        System.out.println("Married men: ");
+        printPeople(marriedMale.meetCriteria(people));
+
+        System.out.println("Married people or females: ");
+        printPeople(marriedOrFemale.meetCriteria(people));
+
 
     }
 

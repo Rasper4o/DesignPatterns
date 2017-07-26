@@ -20,7 +20,7 @@ public class InterpreterPattDemo {
         return new AndExpression(diana, married);
     }
 
-    public static void main(String[] atgs)
+    public static void main(String[] args)
     {
         Expression isMale=getMaleExpression();
         Expression isMarriedWoman=getMarriedWomanExpression();
